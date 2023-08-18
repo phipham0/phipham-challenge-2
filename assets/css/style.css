@@ -1,0 +1,153 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #0a749b;
+    --dark2: #3b3d99;
+    --light: #fcd9d9;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: rgb(244, 233, 206);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 1%;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+header li {
+    display: inline-block;
+    font-size: 150%;
+    margin: 10px;
+
+}
+
+section {
+    display: flex;
+    margin: 20px;
+    
+
+}
+
+h2 {
+    display: inline-block;
+    font-size: 200%;
+    padding: 50px;
+}
+
+.section-content {
+    display: inline-block;
+}
+
+#about-me img {
+    border: 5px solid var(--dark2);
+}
+
+.blurb{
+    justify-content: right;
+    display: block;
+    margin: 1%;
+    font-size: 18px;
+}
+
+#about-me span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.work-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.work-content a {
+    box-shadow: 0 10px 10px 0 grey;
+    margin: 20px;
+    background-color: rgb(166, 150, 131);
+
+}
+
+.first-work {
+    width: 100%;
+}
+
+.other-work {
+    flex: 1 1 400px;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(166, 150, 131);
+}
+
+.card header {
+    padding: 20px;
+    background: var(--dark);
+    color: --light;
+    justify-content: center;
+}
+
+#challenge-1 img {
+    width: 400px;
+    min-width: 50px;
+    
+}
+
+#strong-horns img {
+    width: 430px;
+    min-width: 50px;
+}
+
+#placeholder img {
+    width: 300px;
+    min-width: 50px;
+}
+
+.contact-me li {
+    display: inline-flex;
+    justify-content: space-between;
+    color: var(--dark2);
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 53px;
+    margin-right: 50px
+}
+
+.contact-me a {
+    color: var(--dark2);
+}
+
+@media screen and (max-width: 1268px) {
+    main,
+    nav,
+    section {
+      flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .contact-me li {
+      display: block;
+    }
+
+}
