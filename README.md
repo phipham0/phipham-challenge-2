@@ -23,13 +23,14 @@ https://phipham0.github.io/phipham-challenge-2/
 
 ## Usage
 
-There are three interactive links in the Navigation Bar in the upper right corner. Each link, Search Engine Optimization, Online Reputation Management, and Social Media Marketing,
-will send the user down the webpage to more information. For the rest of the page, the text can be read and the webpage can be scrolled through.
+There are three interactive links in the Navigation Bar in the upper right corner. Each link, About Me, My Work, and Contact Me,
+will send the user down the webpage to more information. Also, in the work section, there are two clickable cards/links that will send you to that appropriate project.
+At the end of the page, there are links for my personal information. For the rest of the page, the text can be read and the webpage can be scrolled through.
 
 
-![webpage1](./assets/images/horiseon-webpage-part1.png)
+![webpage1](./assets/Images/webpage1.png)
 
-![webpage2](./assets/images/horiseon-webpage-part2.png)
+![webpage2](./assets/Images/webpage2.png)
 
 
 ## License
